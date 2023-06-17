@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html {
+      margin: 0 auto;
+      width: 100%; 
+    }
+    body {
+      margin: auto;
+      background-color:hsl(212, 45%, 89%);
+    }
+    .qr-container {
+      background-color: hsl(0, 0%, 100%);
+      border-radius:10%;
+      padding: 15px;
+      width: 320px;
+      margin: 20% auto;
+      text-align: center;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .qr-container img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 10%;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');    
+    @font-face {
+      font-family: 'Outfit', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      src:url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+    }
+    @font-face {
+      font-family: 'Outfit', sans-serif;
+      font-style: bold;
+      font-weight: 700;
+      src:url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+    }
+    h1{
+      font-family: 'Outfit', sans-serif;
+      font-size:22px;
+      font-weight:700;
+      color:hsl(218, 44%, 22%);
+      padding:0px 20px;
+    }
+    p {
+      font-family: 'Outfit', sans-serif;
+      font-size:15px;
+      font-style: normal;
+      color: hsl(220, 15%, 55%);
+      padding:0px 20px;
+    }
+    @media screen and (max-width: 650px) {
+      .qr-container {
+      max-width:375px;
+      margin:10% auto;
+      }
+    }
+    /***
+## Colors
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+**/
+    .attribution { font-size: 11px;font-family: 'Outfit', sans-serif; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+  </style>
+</head>
+<body>
+  <div class="qr-container">
+<div class="inner-container">
+  <img src="/images/image-qr-code.png"></div>
+  <h1>Improve your front-end skills by building projects</h1>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="chloescullin.com">Chloe Scullin</a>.
+  </div>
+</body>
+</html>
